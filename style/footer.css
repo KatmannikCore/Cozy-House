@@ -1,0 +1,44 @@
+footer{
+    background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%),linear-gradient(0deg, #211F20, #211F20);
+    display: flex;
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+.location::before{
+    content: url('/images/footer/pin.png');
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+.email::before{
+    content: url('/images/footer/mail.png');
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+.phone::before{
+    content: url('/images/footer/phone.png');
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+footer p{
+    color: #F1CDB3;
+    font-size: 20px;
+    padding-bottom: 50px;
+    width: 260px;
+}
+footer h3{
+    color: #fff;
+    font-size: 35px;
+    padding-bottom: 45px;
+    position: relative;
+    right: 10px;
+}
+footer img{
+    width: 300px;
+    height: 310px;
+    position: relative;
+    top: 20px;
+}

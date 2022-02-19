@@ -2,7 +2,7 @@
     content:  url('/images/donation/credit-card.svg');
     position: relative;
     top: 5px;
-    right: 5px;
+    right: 10px;
 }
 .donation .card{
     background: #F1CDB3;
