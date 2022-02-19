@@ -1,0 +1,31 @@
+.ways_of_help{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.ways_of_help div{
+    flex-basis: 20%;
+}
+.ways_of_help img{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.ways_of_help p{
+    text-align: center;
+    padding-bottom: 55px;
+}
+.hou_you_can_help{
+    font-weight: 400;
+    color: #545454;
+}
+.hou_you_can_help h3{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    font-size: 35px;
+}
+.ways_of_help{
+    font-size: 23px;
+}
