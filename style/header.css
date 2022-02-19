@@ -1,0 +1,62 @@
+header{
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), linear-gradient(0deg, #211F20, #211F20);
+    padding-top: 35px;
+    padding: 24px;
+    height: 100%;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.sub_menu{
+    display: flex;
+}
+.sub_menu p{
+    padding-left:30px ;
+}
+.sub_menu p a{
+    color: #CDCDCD;
+    text-decoration: none
+}
+.cozy_house{
+    color: #F1CDB3;
+    font-weight: 400;
+    font-size: 35.2px;
+}
+.shelter{
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.sub_header{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    align-self: center;
+    position: relative;
+    bottom: 20px;
+}
+.text h2{
+    text-align: 44px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.text p{
+    color: #CDCDCD;
+    width: 460px;
+}
+.text button{
+    font-size: 22px;
+    font-weight: 400;
+    padding: 15px 45px;
+    border-radius: 60px;
+    background-color: #F1CDB3;
+}
+.text h2, .text p{
+    padding-bottom: 42px;
+}
+p a:hover {
+    border-bottom: 3px solid #F1CDB3;
+    cursor: pointer;
+    color: #fff;
+}
