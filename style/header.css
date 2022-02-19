@@ -31,7 +31,7 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.text{
+header .text{
     align-self: center;
     position: relative;
     bottom: 20px;

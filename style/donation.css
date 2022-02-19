@@ -1,0 +1,38 @@
+.donation .card::before{
+    content:  url('/images/donation/credit-card.svg');
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+.donation .card{
+    background: #F1CDB3;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #545454;
+}
+.donation{
+    display: flex;
+    justify-content: center;
+}
+.donation .text{
+    width: 380px;
+    font-size: 12px;
+    color: #B2B2B2;
+}
+.donation h3{
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: #545454;
+}
+.donation .bank{
+    padding-bottom: 30px;
+    color: #545454;
+}
+.donation img{
+    padding-right: 30px;
+    padding-bottom: 110px;
+}
