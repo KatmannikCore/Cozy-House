@@ -1,0 +1,17 @@
+.about_shelter{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 215px 0 215px;
+}
+.about_shelter h3{
+   color: #545454; 
+   font-size: 35px;
+   width: 330px;
+   padding-bottom: 25px;
+}
+.about_shelter p{
+    color: #4C4C4C;
+    font-size: 15px;
+    width: 430px;
+    padding-bottom: 25px;
+}
