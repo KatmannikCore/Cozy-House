@@ -1,0 +1,48 @@
+header{
+    background: white;
+}
+header p, header a{
+    color: #545454 !important;
+}
+header a:hover{
+    color: #292929 !important;
+}
+.slider_body{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.slider_item{
+    margin: 0;
+    min-width: 0;
+    flex-basis: 25%;
+}
+section{
+    background: #F6F6F6;
+}
+section h3{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    color: #545454;
+    font-weight: normal;
+    font-size: 35px;
+    text-align: center;
+}
+.buttons{
+    padding-top: 75px;
+    padding-bottom: 115px;
+    display: flex;
+    justify-content: center;
+}
+.buttons button{
+    width: 52px;
+    height: 52px;
+    margin-left: 1%;
+    border: 1px #F1CDB3 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+.active:hover{
+    background:#F1CDB3 ;
+}

@@ -65,3 +65,7 @@ p a:hover {
     background-color: #FFFFFF;
 
 }
+header img{
+    position: relative;
+    top: 25px;
+}

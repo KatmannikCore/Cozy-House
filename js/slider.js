@@ -78,8 +78,6 @@ function createWindow(i){
     modal.querySelector('.name').innerHTML = animals[i].name
     modal.querySelector('.breed').innerHTML = animals[i].breed
     modal.querySelector('.description').innerHTML = animals[i].description
-
-
 }
 
 document.querySelector('.close').addEventListener('click', fiddenModal)
