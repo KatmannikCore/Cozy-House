@@ -51,6 +51,7 @@ header .text{
     padding: 10px 45px;
     border-radius: 60px;
     background-color: #F1CDB3;
+    border: 3px #FDDCC4 solid;
 }
 .text h2, .text p{
     padding-bottom: 42px;
@@ -59,4 +60,8 @@ p a:hover {
     border-bottom: 3px solid #F1CDB3;
     cursor: pointer;
     color: #fff;
+}
+.text button:hover{
+    background-color: #FFFFFF;
+
 }

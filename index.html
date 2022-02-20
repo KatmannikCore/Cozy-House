@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/style/hou_you_can_help.css">
     <link rel="stylesheet" href="/style/donation.css">
     <link rel="stylesheet" href="/style/footer.css">
+    <link rel="stylesheet" href="/style/modal.css">
     <title>Document</title>
 </head>
 <body>
@@ -49,24 +50,32 @@
     <section class="slider">
         <h3>Our friends who <br> are looking for a house</h3>
         <div class="slider_body">
-            <div class="slider_item">
+            <div class="slider_item active">
                 <img src="/images/animals/1.png" alt="">
                 <p class="name">Katrine</p>
-                <button>Learn more</button>
+                <button onclick="createWindow(0)">Learn more</button>
             </div>
-            <div class="slider_item">
+            <div class="slider_item active">
                 <img src="/images/animals/2.png" alt="">
-                <p class="name">Katrine</p>
-                <button>Learn more</button>
+                <p class="name">Jennifer</p>
+                <button onclick="createWindow(1)">Learn more</button>
             </div>
-            <div class="slider_item">
+            <div class="slider_item active">
                 <img src="/images/animals/3.png" alt="">
-                <p class="name">Katrine</p>
-                <button>Learn more</button>
+                <p class="name">Woody</p>
+                <button onclick="createWindow(2)">Learn more</button>
             </div>
+           
+        </div>
+        <div class="prev">
+            <img src="/images/Arrow.png" alt="">
+        </div>
+        <div class="next">
+            <img src="/images/Arrow.png" alt="">
         </div>
         <button class="to_know">Get to know the rest</button>
     </section>
+    
     <section class="hou_you_can_help">
         <h3>How you can help <br> our shelter</h3>
         <div class="ways_of_help">
@@ -131,7 +140,29 @@
         </div>
         <img src="/images/footer/footer-puppy.png" alt="">
     </footer>
+    <div class="bacround" hidden></div>
+    <div class="modal" hidden>
+        <div class="close">x</div>
+        <div class="sub_modal">
+            <img src="" alt="">
+            <div class="modal_two">
+                <h3 class="name"></h3>
+                <p class="breed"></p>
+                <p class="description"></p>
+                <div class="data">
+                    <ul>
+                        <li><p><span>Age: </span> 2 months</p></li>
+                        <li><p><span>Inoculations: </span> none</p></li>
+                        <li><p><span>Diseases: </span> none</p></li>
+                        <li><p><span>Parasites: </span> none</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-    <script src="/script.js"></script>
+    </div>
+
+    <script src="/js/slider.js"></script>
+    <script src="/js/modal_window.js"></script>
 </body>
 </html>
