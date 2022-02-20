@@ -29,3 +29,16 @@
 .ways_of_help{
     font-size: 23px;
 }
+@media screen and (max-width: 780px) {
+    .ways_of_help{
+        justify-content: start;
+    }
+    .ways_of_help div{
+        flex-basis: 33%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .ways_of_help div{
+        flex-basis: 50%;
+    }
+}

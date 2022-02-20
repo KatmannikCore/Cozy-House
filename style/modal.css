@@ -92,3 +92,58 @@
 body{
     position: relative;
 }
+@media screen and (max-width: 780px) {
+    .modal img {
+        height: 350px;
+        width: 350px;
+    }
+    .modal{
+        height: 350px;
+        width: 630px; 
+        left: 5%;
+    }
+    .modal .name{
+        padding-bottom: 10px !important;
+        font-size: 35px;
+    }
+    .breed{
+        padding-bottom: 20px !important;
+        font-size: 23px;
+    }
+    .description{
+        padding-bottom: 20px !important ;
+        font-size: 13px;
+    }
+    .modal_two{
+        padding: 0;
+    }
+    
+}
+@media screen and (max-width: 320px){
+    .modal img {
+        display: none;
+    }
+    .modal{
+        height: 355px;
+        width: 240px;
+    }
+    .modal .name{
+        font-size: 35px;
+        text-align: center;
+    }
+    .breed{
+        font-size: 20px;
+        text-align: center;
+    }
+    .description{
+
+        padding-left: 10px;
+        padding-right: 10px;    
+        padding-bottom: 3px;
+        text-align: justify;
+    }
+    .data{
+        font-size: 13px;
+    }
+
+}

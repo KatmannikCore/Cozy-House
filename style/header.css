@@ -69,3 +69,8 @@ header img{
     position: relative;
     top: 25px;
 }
+@media screen and (max-width: 780px) {
+    .sub_header{
+        flex-direction: column;
+    }
+}

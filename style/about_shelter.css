@@ -16,3 +16,8 @@
     width: 430px;
     padding-bottom: 25px;
 }
+@media screen and (max-width: 780px){
+    .about_shelter{
+        flex-direction: column-reverse;
+    }
+}

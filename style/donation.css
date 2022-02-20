@@ -5,6 +5,7 @@
     right: 10px;
 }
 .donation .card{
+    width: 350px;
     background: #F1CDB3;
     padding: 10px;
     border-radius: 10px;
@@ -35,4 +36,9 @@
 .donation img{
     padding-right: 30px;
     padding-bottom: 110px;
+}
+@media screen and (max-width: 780px){
+    .donation{
+        flex-direction: column-reverse;
+    }
 }

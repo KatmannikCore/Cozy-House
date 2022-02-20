@@ -1,6 +1,5 @@
 footer{
     background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%),linear-gradient(0deg, #211F20, #211F20);
-    display: flex;
     padding-top: 55px;
     display: flex;
     justify-content: space-around;
@@ -41,4 +40,16 @@ footer img{
     height: 310px;
     position: relative;
     top: 20px;
+}
+@media screen and (max-width: 780px){
+    footer{
+        flex-wrap: wrap;
+    }
+    footer img{
+        display: block;
+        flex: 0 1 100%;
+    }
+    footer div{
+        flex: 0 1 50%;
+    }
 }
