@@ -12,15 +12,32 @@
     <link rel="stylesheet" href="/style/donation.css">
     <link rel="stylesheet" href="/style/footer.css">
     <link rel="stylesheet" href="/style/modal.css">
+    <link rel="stylesheet" href="/style/menu.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div class="menu">
+        <input type="checkbox" id="nav-toggle" hidden>
+    <nav class="nav">
+        <div class="logo">
+            <p class="cozy_house">Cozy House</p>
+            <p class="shelter">Shelter for pets in Boston</p>
+        </div>
+        <ul>
+            <li><p><a href="/index.html ">About the shelter</a></p>
+            <li><p><a href="/Our pets/our_pets.html">Our pets</a></p>
+            <li><p><a href="">Help the shelter</a></p>
+            <li><p><a href="">Contacts</a></p>
+        </ul>
+    </nav>
+        <div class="menu" >
             <div class="logo">
                 <p class="cozy_house">Cozy House</p>
                 <p class="shelter">Shelter for pets in Boston</p>
             </div>
+                <label for="nav-toggle" class="nav-toggle" onclick></label>
+              
+       
             <div class="sub_menu">
                 <p><a href="/index.html ">About the shelter</a></p>
                 <p><a href="/Our pets/our_pets.html">Our pets</a></p>
@@ -50,17 +67,17 @@
     <section class="slider">
         <h3>Our friends who <br> are looking for a house</h3>
         <div class="slider_body">
-            <div class="slider_item ">
+            <div class="slider_item">
                 <img src="/images/animals/1.png" alt="">
                 <p class="name">Katrine</p>
                 <button onclick="createWindow(0)">Learn more</button>
             </div>
-            <div class="slider_item prev_last_item">
+            <div class="slider_item">
                 <img src="/images/animals/2.png " alt="">
                 <p class="name">Jennifer</p>
                 <button onclick="createWindow(1)">Learn more</button>
             </div>
-            <div class="slider_item last_item">
+            <div class="slider_item">
                 <img src="/images/animals/3.png" alt="">
                 <p class="name">Woody</p>
                 <button onclick="createWindow(2)">Learn more</button>
@@ -165,6 +182,6 @@
     </div>
 
     <script src="/js/slider.js"></script>
-    <script src="/js/modal_window.js"></script>
+    <script src="/js/menu.js"></script>
 </body>
 </html>

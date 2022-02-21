@@ -19,6 +19,10 @@
     display: flex;
     justify-content: center;
 }
+.donation img{
+    width: 505px;
+    height: 360px;
+}
 .donation .text{
     width: 380px;
     font-size: 12px;
@@ -40,5 +44,18 @@
 @media screen and (max-width: 780px){
     .donation{
         flex-direction: column-reverse;
+    }
+    .donation .description{
+        margin: 0 auto;
+    }
+    .donation img{
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 780px){
+    .donation img{
+        padding: 0 0 20px 0;
+        width: 360px;
+        height: 200px;
     }
 }

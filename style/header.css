@@ -70,7 +70,49 @@ header img{
     top: 25px;
 }
 @media screen and (max-width: 780px) {
+    header img{
+        width: 500px;
+        height: 570px;
+        margin: 0 auto;
+    }
+    header button{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
     .sub_header{
+        padding-top: 40px;
         flex-direction: column;
     }
 }
+@media screen and (max-width: 480px){
+    .logo{
+        position: relative;
+        right: 50px;
+    }
+    header img{
+        width: 260px;
+        height: 270px;
+    }
+    header h2,  header p { 
+        padding: 0px 20%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

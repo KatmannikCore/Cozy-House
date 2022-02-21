@@ -47,9 +47,12 @@ footer img{
     }
     footer img{
         display: block;
-        flex: 0 1 100%;
+        top: 0;
+        width: 300px;
+        height: 310px;
     }
     footer div{
         flex: 0 1 50%;
+        padding-left: 40px;
     }
 }
