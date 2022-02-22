@@ -46,3 +46,23 @@ section h3{
 .active:hover{
     background:#F1CDB3 ;
 }
+.nav{
+    background: #F6F6F6 !important;
+    font-size: 25px;
+}
+.nav-toggle::after{
+    color: black !important;
+}
+@media screen and (max-width: 770px) {
+    .slider_body{
+        height: 100%;
+    }
+    .slider_item {
+     flex-basis: 50%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .slider_item {
+     flex-basis: 100%;
+    }
+}
